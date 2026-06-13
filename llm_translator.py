@@ -1,5 +1,6 @@
 from groq import Groq
-from config import GROQ_API_KEY
+import streamlit as st
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 class LLMTranslator:
     def __init__(self):
