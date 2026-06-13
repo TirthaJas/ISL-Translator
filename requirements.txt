@@ -1,9 +1,8 @@
 mediapipe==0.10.11
-opencv-python
+opencv-python-headless
 streamlit
 groq
 sounddevice
 soundfile
 gtts
 numpy
-anthropic
